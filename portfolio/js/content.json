@@ -1,0 +1,26 @@
+{
+  "profile": {
+    "name": "Sri Meiriani Br Sinulingga",
+    "description": "Saya adalah mahasiswa Teknik Informatika...",
+    "image": "img/pp1.jpg"
+  },
+  "about": {
+    "short": "Saya senang membuat web yang interaktif dan user-friendly.",
+    "hobby": "Menggambar dan menulis jurnal."
+  },
+  "skills": [
+    "HTML5", "CSS3", "JavaScript", "PHP", "Python"
+  ],
+  "education": [
+    { "school": "Universitas Maritim Raja Ali Haji", "desc": "Teknik Informatika", "years": "2022 - Sekarang", "image": "img/umrah.jpg" },
+    { "school": "SMK YAPIM Biru-biru", "desc": "TKJ", "years": "2019 - 2022", "image": "img/smk.jpg" }
+  ],
+  "experience": [
+    { "title": "Merancang Website Wisata", "year": "2023" },
+    { "title": "Membuat Aplikasi Mobile Wisata", "year": "2025" }
+  ],
+  "activities": [
+    { "org": "HIMATIF", "role": "Member", "years": "2021 - Present" },
+    { "org": "GDSC", "role": "Web Dev", "years": "2022 - 2023" }
+  ]
+}

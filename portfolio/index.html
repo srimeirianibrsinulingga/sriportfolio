@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sri Meiriani | Portfolio</title>
+
+  <!-- ikon -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- Di bagian <head> -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+<!-- Di bagian sebelum </body> -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // durasi animasi
+    once: true      // hanya muncul sekali saat scroll
+  });
+</script>
+
+</head>
+<body>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="article.html">Article</a>
+      <a href="contact.html">Contact</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div id="particles-js"></div>
+
+    <!-- kolom kiri -->
+    <div class="hero-left">
+      <h2><span id="hi-text"></span>Hi, There!</h2> 
+      <h1><span id="name-text"></span>I,m Sri Meiriani Br Sinulingga</h1>
+       <h3><span id="name-text"></span>UI/UX Designer & Full Stack Developer</h3>
+      
+      <a href="#about" class="btn">About Me
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+      <div class="social-row">
+        <a href="#" class="soc"><i class="fa-brands fa-telegram"></i></a>
+        <a href="#" class="soc"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <!-- kolom kanan -->
+   <div class="hero-right">
+  <div class="avatar-ring" id="avatar-box">
+    <img id="avatar-img" src="img/pp1.jpg" alt="foto">
+    
+  </div>
+</div>
+
+
+  <!-- skrip -->
+  <script src="js/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/main.js"></script>
+
+  
+  <!-- ===== HERO (Landing Page) END ===== -->
+</section>
+
+<!-- ===== ABOUT ME SECTION (NYAMBUNG) ===== -->
+<section id="about" class="about-section">
+  <h2 class="section-title"><i class="fa-solid fa-user"></i> About <span class="highlight">Me</span></h2>
+
+ 
+
+   
+  <div class="about-container">
+    
+    <!-- FOTO SEBELAH KIRI -->
+    <div class="about-photo">
+      <img src="img/pp2.jpg" alt="Foto Profil">
+    </div>
+
+    <!-- BIODATA SEBELAH KANAN -->
+    <div class="about-content">
+      <h3>I'm <span class="primary">Sri Meiriani Br Sinulingga</span></h3>
+      <p class="position">I am a passionate UI/UX Designer and Full-Stack Developer who loves crafting visually appealing interfaces and intuitive user experiences. I believe that great design is not only about aesthetics, but also about usability.</p>
+      <p></p>
+      
+      <a href="#" class="btn resume-btn">Resume <i class="fa-solid fa-download"></i></a>
+    </div>
+  </div>
+</section>
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="skills-section">
+  <h2><i class="fa-solid fa-code"></i> Skills <span class="highlight"> & Abilities</span></h2>
+
+  <div class="skills-grid">
+   
+    <div class="skill-card"><img src="img/html.jpeg" alt="HTML5"><p>HTML5</p></div>
+    <div class="skill-card"><img src="img/css.png" alt="CSS3"><p>CSS3</p></div>
+    <div class="skill-card"><img src="img/js.png" alt="JavaScript"><p>JavaScript</p></div>
+    <div class="skill-card"><img src="img/php.jpeg" alt="PHP"><p>PHP</p></div>
+    <div class="skill-card"><img src="img/py.jpeg" alt="Python"><p>Python</p></div>
+    <!-- Tambahkan lagi sesuai kebutuhan -->
+  </div>
+</section>
+<!-- ===== EDUCATION ===== -->
+<section id="education" class="education-section">
+  <h2><i class="fa-solid fa-graduation-cap"></i> My <span class="highlight">Education</span></h2>
+  <p class="subtext">Education Is Not The Learning Of Facts, But The Training Of The Mind To Think.</p>
+
+  <div class="edu-box">
+    <img src="img/umrah.jpg" alt="University">
+    <div class="edu-content">
+      <h3>Informatics Engineering Student</h3>
+      <p>Maritim Raja Ali Haji University  | S1</p>
+      <p class="edu-status green">2022 - Sekarang </p>
+    </div>
+  </div>
+
+  <div class="edu-box">
+    <img src="img//smk.jpg" alt="High School">
+    <div class="edu-content">
+      <h3>Vocational High School majoring in Computer and Network Engineering</h3>
+      <p>SMK YAPIM Biru-biru</Biru-biru></p>
+      <p class="edu-status purple">2019 - 2022 | Graduated</p>
+    </div>
+  </div>
+
+   <div class="edu-box">
+    <img src="img/smp.jpg" alt="High School">
+    <div class="edu-content">
+      <h3>Junior High School (JHS) </h3>
+      <p>SMPN 1 STM HULU</p>
+      <p class="edu-status purple">2016-2019 | Graduated</p>
+    </div>
+  </div>
+   <div class="edu-box">
+    <img src="img/sd.jpg" alt="High School">
+    <div class="edu-content">
+      <h3>Elementary School (SD)</h3>
+      <p>SD HOLY KIDS</p>
+      <p class="edu-status purple">2010-2016 | Graduated</p>
+    </div>
+  </div>
+   <div class="edu-box">
+    <img src="img/tk.jpg" alt="High School">
+    <div class="edu-content">
+      <h3>Kindergarten (TK) </h3>
+      <p>TK HOLY KIDS</p>
+      <p class="edu-status purple">2008-2010 | Graduated</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="experience-section">
+  <h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
+
+  <div class="timeline">
+
+    <!-- Experience 1 -->
+    <div class="container left">
+      <div class="content">
+        <h3>Designing a website </h3>
+        <p><strong>Tourism Sector of the Riau Islands</strong><br>2023</p>
+      </div>
+    </div>
+
+    <!-- Experience 2 -->
+    <div class="container right">
+      <div class="content">
+        <h3>Designing a website</h3>
+        <p><strong>Tourist Information and Hotel Sector</strong><br>2024</p>
+      </div>
+    </div>
+
+    <!-- Experience 3 -->
+    <div class="container left">
+      <div class="content">
+        <h3>Designing a Malware Detection System (TIM) </h3>
+        <p><strong>2024</p>
+      </div>
+    </div>
+
+    <!-- Experience 4 -->
+    <div class="container right">
+      <div class="content">
+        <h3>Designing Mobile Applications </h3>
+        <p><strong>Tourism Sector of the Riau Islands</strong><br>2025</p>
+      </div>
+    </div>
+</section>
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="box-section">
+  <h2><i class="fa-solid fa-diagram-project"></i> Projects <span class="highlight">Saya</span></h2>
+  <p class="subtext">Here are several projects resulting from the proposals and reports of assignments that I have worked on. Each project can be accessed and the complete report can be viewed.</p>
+
+  <div class="box-container">
+    <!-- Card 1 -->
+    <div class="box-card">
+      <img src="img/kepritour.jpg" alt="Project 1" />
+      <h3>Aplikasi Kepri Tour</h3>
+      <p>Aplikasi mobile berbasis Flutter + Firebase untuk pencarian dan booking destinasi wisata di Kepulauan Riau.</p>
+      <a href="pdf/Proposal Project PPM.docx" download class="download-btn">📄 Download Proposal</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="box-card">
+      <img src="img/restlauna.jpg" alt="Project 2" />
+      <h3>Website Pemesanan Meja Restoran</h3>
+      <p>Merancang menggunakan javascript dan Python</p>
+      <a href="pdf/LAPORAN AKHIR MANAJEMEN PROYEK PERANGKAT LUNAK.pdf" download class="download-btn">📄 Download Laporan</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="box-card">
+      <img src="img/banyan.jpg" alt="Project 3" />
+      <h3>Membuat 3d Tree and Animals </h3>
+      <p>Membuat 3d Banyan Tree Bintan menggunakan WebAR</p>
+      <a href="docs/website-artikel.pdf" download class="download-btn">📄 Download Laporan
+
+      </a>
+    </div>
+  </div>
+</section>
+<!-- ===== ACTIVITIES & ORGANIZATION ===== -->
+<section id="activities" class="activities-section">
+  <h2><i class="fa-solid fa-users"></i> Activities & <span class="highlight">Organizations</span></h2>
+
+  <div class="activities-list">
+
+    <div class="activity-box">
+      <i class="fa-solid fa-handshake-angle activity-icon"></i>
+      <div class="activity-content">
+        <h3>HIMATIF (Himpunan Mahasiswa Informatika)</h3>
+        <p><strong>Position:</strong> Member</p>
+        <p><strong>Years:</strong> 2021 - Present</p>
+        <p>Aktif mengikuti kegiatan pengembangan soft-skill dan event-event internal kampus seperti seminar, workshop, dan lomba coding.</p>
+      </div>
+    </div>
+
+    <div class="activity-box">
+      <i class="fa-solid fa-globe activity-icon"></i>
+      <div class="activity-content">
+        <h3>Google Developer Student Club (GDSC)</h3>
+        <p><strong>Position:</strong> Core Team | Web Dev</p>
+        <p><strong>Years:</strong> 2022 - 2023</p>
+        <p>Berperan dalam pengembangan website event GDSC dan mengorganisir pelatihan teknis untuk mahasiswa baru seputar web development.</p>
+      </div>
+    </div>
+
+    <div class="activity-box">
+      <i class="fa-solid fa-heart-pulse activity-icon"></i>
+      <div class="activity-content">
+        <h3>Relawan COVID-19 Tanjungpinang</h3>
+        <p><strong>Position:</strong> Volunteer</p>
+        <p><strong>Years:</strong> 2020</p>
+        <p>Ikut serta dalam kegiatan edukasi masyarakat mengenai protokol kesehatan dan distribusi masker & hand sanitizer.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Kolom Kiri -->
+    <div class="footer-col">
+      <h3>Sri's Portfolio</h3>
+      <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+      <p>Keep Rising 🚀. Connect with me over live chat!</p>
+    </div>
+
+    <!-- Kolom Tengah -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">➤ Home</a></li>
+        <li><a href="#about">➤ About</a></li>
+        <li><a href="#skills">➤ Skills</a></li>
+        <li><a href="#education">➤ Education</a></li>
+        <li><a href="#projects">➤ Work</a></li>
+        <li><a href="#experience">➤ Experience</a></li>
+      </ul>
+    </div>
+
+    <!-- Kolom Kanan -->
+    <div class="footer-col">
+      <h3>Contact Info</h3>
+      <p>📞 +62 821-7781-1910 </p>
+      <p>📧 srimeirianisinulingga@gmail.com</p>
+      <p>📍 Tanjungpinang, Indonesia</p>
+      <div class="footer-icons">
+       
+        <a href="#"><i class="fas fa-envelope"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+
+ 
+</footer>
+
+
+<script>
+fetch("/api/content")
+  .then(res => res.json())
+  .then(data => {
+    // Hero Section
+    document.getElementById("name-text").innerText = data.profile.name;
+    document.querySelector(".about-content p.position").innerText = data.profile.description;
+    document.getElementById("avatar-img").src = data.profile.image;
+
+    // Skills
+    const skillsContainer = document.querySelector(".skills-grid");
+    skillsContainer.innerHTML = "";
+    data.skills.forEach(skill => {
+      skillsContainer.innerHTML += `<div class="skill-card"><p>${skill}</p></div>`;
+    });
+
+    // Education
+    const eduContainer = document.querySelector(".education-section .edu-boxes");
+    eduContainer.innerHTML = "";
+    data.education.forEach(edu => {
+      eduContainer.innerHTML += `
+        <div class="edu-box">
+          <img src="${edu.image}" />
+          <div class="edu-content">
+            <h3>${edu.desc}</h3>
+            <p>${edu.school}</p>
+            <p class="edu-status">${edu.years}</p>
+          </div>
+        </div>
+      `;
+    });
+
+    // Experience & Activities juga bisa pakai pola serupa
+  });
+</script>
+

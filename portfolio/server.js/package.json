@@ -1,0 +1,29 @@
+const express = require('express');
+const fs = require('fs');
+const path = require('path');
+const bodyParser = require('body-parser');
+
+const app = express();
+const PORT = 3000;
+const DATA_PATH = path.join(__dirname, 'data', 'content.json');
+
+app.use(express.static('public'));
+app.use(bodyParser.json());
+
+// API GET semua data
+app.get('/api/content', (req, res) => {
+  fs.readFile(DATA_PATH, 'utf8', (err, data) => {
+    if (err) return res.status(500).send("File error");
+    res.json(JSON.parse(data));
+  });
+});
+
+// API POST untuk update data (dari admin)
+app.post('/api/content', (req, res) => {
+  fs.writeFile(DATA_PATH, JSON.stringify(req.body, null, 2), err => {
+    if (err) return res.status(500).send("Gagal simpan");
+    res.send("Berhasil");
+  });
+});
+
+app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`));

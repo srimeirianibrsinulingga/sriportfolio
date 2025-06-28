@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Article | Sri Meiriani</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f2f6ff;
+      color: #222;
+    }
+    .navbar {
+      background: #fff;
+      padding: 15px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .navbar a {
+      text-decoration: none;
+      color: #222;
+      margin-left: 25px;
+      font-weight: 600;
+    }
+    .navbar a.active {
+      color: #7d00ff;
+    }
+    .contact-section {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #e4eaff, #f5faff);
+    }
+    .contact-section h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #0b1b55;
+    }
+    .contact-section .subtext {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 50px;
+    }
+    .contact-container {
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+    .contact-container form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .contact-container input,
+    .contact-container textarea {
+      padding: 15px;
+      font-size: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      resize: none;
+      font-family: 'Poppins', sans-serif;
+    }
+    .contact-container button {
+      padding: 12px;
+      background: linear-gradient(135deg, #3e00ff, #7f00ff);
+      border: none;
+      color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .contact-container button:hover {
+      background: linear-gradient(135deg, #3100cc, #5d00cc);
+    }
+    .contact-info {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      color: #555;
+      font-size: 14px;
+    }
+    .contact-info div i {
+      color: #7d00ff;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="article.html">Article</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h2 data-aos="fade-up">📬 Hubungi Saya</h2>
+    <p class="subtext" data-aos="fade-up" data-aos-delay="200">Kamu bisa menghubungi saya melalui form di bawah ini atau lewat sosial media.</p>
+
+    <div class="contact-container" data-aos="fade-up" data-aos-delay="300">
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Nama kamu" required>
+        <input type="email" name="email" placeholder="Email kamu" required>
+        <textarea name="message" rows="6" placeholder="Pesan kamu" required></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+
+      <div class="contact-info">
+        <div><i class="fa-solid fa-envelope"></i> srimeirianisinulngga@gmail.com</div>
+        <div><i class="fa-solid fa-location-dot"></i> Tanjungpinang, Indonesia</div>
+        <div><i class="fa-brands fa-instagram"></i> @srimeiriani</div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>

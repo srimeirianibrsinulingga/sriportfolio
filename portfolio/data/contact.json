@@ -1,0 +1,22 @@
+{
+  "landing": {
+    "biodata": "Sri Meiriani Br Sinulingga",
+    "skills": "HTML, CSS, JavaScript",
+    "education": "Universitas Maritim",
+    "experience": "Intern di PT Webku",
+    "project": "Aplikasi Wisata Kepri",
+    "organization": "BEM FT",
+    "activity": "UI/UX Design, Coding"
+  },
+  "articles": [
+    {
+      "title": "Tips Belajar HTML",
+      "body": "Belajarlah dari dokumentasi dan latihan langsung."
+    }
+  ],
+  "contact": {
+    "whatsapp": "https://wa.me/62xxx",
+    "email": "meiriani@example.com",
+    "linkedin": "https://linkedin.com/in/meiriani"
+  }
+}
